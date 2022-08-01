@@ -1,0 +1,441 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*--------------header---------------*/
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.header_top {
+    margin: 0px 0px 1px 0px;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .header_top img {
+        padding-left: 80px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .header_top input[type="text"] {
+        g: border-box;
+        x;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        outline: none;
+        padding: 12px 14px;
+    }
+
+    .header_top input[type="submit"] {
+        width: 50px;
+        background: #C89979;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 12px 0px;
+        color: white;
+    }
+
+    .header_top .login {
+        text-decoration: none;
+        display: flex;
+    }
+
+        .header_top .login p {
+            color: black;
+        }
+
+        .header_top .login a {
+            color: black;
+            font-size: 30px;
+        }
+
+.header_bot {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+}
+
+    .header_bot .icon {
+        display: none;
+    }
+
+    .header_bot ul {
+        margin: auto;
+        padding: 0px;
+    }
+
+        .header_bot ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+            .header_bot ul li a {
+                text-decoration: none;
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                color: white;
+                padding: 0px 15px 0px 15px;
+                font-size: 25px;
+            }
+
+    .header_bot a:hover {
+        background-color: #C89979;
+        color: red;
+    }
+/*------------------banner--------------*/
+
+.banner {
+    width: 100%;
+    max-height: 600px auto;
+    position: relative;
+    /***background-image: url('../images/banner-1.jpg');**/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 123px;
+}
+
+    .banner img {
+        height: 450px;
+        width: 100%;
+    }
+
+
+/*--------------phone*------------*/
+.phone {
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    height: 600px;
+    display:flex;
+    justify-content:space-around;
+}
+/*left */
+.left {
+    width: 30%;
+    height: 600px;
+    background: url(../images/android.jpg);
+    float: left;
+    clear:both;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+    .left .ngheo {
+        margin: 80px 0px 0px 25px;
+        position: absolute;
+        color: black;
+        line-height: 2.1;
+    }
+
+/*right*/
+.right {
+    width: 30%;
+    height: 600px;
+    background: url(../images/ios.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+    .right .giau {
+        margin: 80px 0px 0px 25px;
+        position: absolute;
+        color: black;
+        line-height: 2.1;
+    }
+
+
+/*---------Trưng bày sản phẩm----------*/
+.sanpham {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: 0px auto 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.h1 {
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: #1C1C1C;
+    clear:both;
+    width: 100%;
+}
+
+.sanpham .sanphambanchay {
+    float: left;
+    width: 250px;
+    height: 450px;
+    box-sizing: border-box;
+    border: 2px solid #DBCEA7;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+    .sanpham .sanphambanchay img {
+        width: 100%;
+        height: 70%;
+    }
+
+.sanpham .sanphambanchay_gia {
+    box-sizing: border-box;
+    border-top: 2px solid #DBCEA7;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+    .sanpham .sanphambanchay_gia p {
+        color: #C89979;
+    }
+
+.sanpham2 {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: 0px auto 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sanpham2 .sanphamphobien {
+    float: left;
+    width: 250px;
+    height: 450px;
+    box-sizing: border-box;
+    border: 2px solid #DBCEA7;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+    .sanphamphobien img {
+        width: 100%;
+        height: 70%;
+    }
+
+.sanphamphobien_gia {
+    box-sizing: border-box;
+    border-top: 2px solid #DBCEA7;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+    .sanphamphobien_gia p {
+        color: #C89979;
+    }
+
+/*tin tức*/
+.phonenews {
+    height: auto;
+    width: 80%;
+    display:flex;
+    justify-content:space-around;
+    margin:auto
+}
+
+.tintuc {
+    height: 350px;
+    margin-left: 70px;
+    float: left;
+    border-radius:5px;
+}
+
+.tintuc img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 17px;
+}
+
+.tintuc h5 {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+
+/*------------footer-------------*/
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+    .footer .Thongtinlienhe {
+        float:left;
+        margin:auto;
+    }
+
+    .footer .Lienket {
+        float: left;
+        margin: auto;
+    }
+        .footer .Lienket ul li,
+        .footer .Lienket ul li a {
+            text-decoration: none;
+            list-style: none;
+        }
+            .footer .Lienket ul li a{
+                color: black;
+            }
+
+ @media screen and (max-width:800px) {
+    * {
+        font-size: 13px;
+    }
+
+    .header {
+        height: auto;
+        margin: 0;
+    }
+
+    .header_bot .icon{
+        float: left;
+        display: block;
+        color: white;
+    }
+
+    .header_bot ul li a{
+        display: none;
+    }
+
+    .header_botresponsive {
+        margin: 1px;
+        position: relative;
+        height: auto;
+        float: left;
+        width: 100%;
+    }
+
+    .header_botresponsive .icon {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        color: black;
+        float: left;
+        display: block;
+    }
+
+    .header_botresponsive a {
+        float: left;
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .header_botresponsive ul li a {
+        padding: 0px;
+    }
+
+    .header_botresponsive ul {
+        padding: 0;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+
+    .header_botresponsive ul li {
+        list-style: none;
+    }
+
+    .header_botresponsive li {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+        color: black;
+    }
+
+    .header_botresponsive a {
+        display: block;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .banner {
+        float: left;
+    }
+
+    .banner img {
+        height: 200px;
+    }
+
+    .phone {
+        margin: 0px;
+        display: flex;
+        height: auto;
+        flex-wrap:wrap;
+    }
+
+    .left, .right {
+        width: 65%;
+        margin: 100px auto 100px auto;
+        height: 700px;
+        text-align:center;
+        background-position:center;
+        display:flex;
+        align-items:center;
+    }
+
+    .h1 {
+        margin: 0px 5px;
+    }
+
+    .sanpham, .sanpham2 {
+        margin: 0px auto 100px;
+        height: 350px;
+        width: 80%;
+    }
+
+    .sanpham .sanphambanchay, .sanpham2 .sanphamphobien {
+        margin: 10px 10px;
+        height: 300px;
+        width: 43%;
+    }
+
+    .sanpham .sanphambanchay img, .sanpham2 .sanphamphobien img {
+        height: 150px;
+    }
+    .phonenews{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .tintuc{
+        width:60%;
+        margin: 50px auto;
+    }
+}
